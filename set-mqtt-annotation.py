@@ -20,9 +20,9 @@ mqtt_broker = 'swarm.hiveeyes.org'
 mqtt_topic_template = u'{realm}/{network}/{gateway}/{node}/{kind}.json'
 mqtt_address = dict(
     realm = 'hiveeyes',
-    network =‚your id’,     # Imker
-    gateway = ‚your site‘,                               # Standort
-    node = ‚your node‘                           # Bienenstock
+    network ='your id’,     			# Imker
+    gateway = 'your site‘,                      # Standort
+    node = 'your node‘                          # Bienenstock
 )
 # define data and event type
 mqtt_data_topic  = mqtt_topic_template.format(kind='data', **mqtt_address)
