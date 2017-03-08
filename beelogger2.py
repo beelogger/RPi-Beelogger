@@ -78,9 +78,9 @@ mqtt_broker = 'swarm.hiveeyes.org'
 # MQTT bus topic
 mqtt_topic = u'{realm}/{network}/{gateway}/{node}/data.json'.format(
     realm = 'hiveeyes',
-    network = '43a88fd9-9eea-4102-90da-7bac748c742d',     # Imker
-    gateway = 'MUC-MH-B99',                               # Standort
-    node = '1'                                            # Bienenstock
+    network = 'your identifier',     			  # Imker
+    gateway = 'your site',                                # Standort
+    node = 'your node'                                    # Bienenstock
 )
 
 
